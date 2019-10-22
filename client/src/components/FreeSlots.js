@@ -58,7 +58,7 @@ class FreeSlots extends React.Component{
 		return(
 			<div className="free-slots">
 				{columns}
-				<button className="btn btn-primary" onClick={()=>this.showFreeSlots()}>show free slots</button>
+				<button className="btn btn-primary" onClick={()=>this.showFreeSlots()}>Check Availability</button>
 			</div>
 
 		);
